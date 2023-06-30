@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.scr{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub{
+    width: 50%;
+    height: 99%;
+    background-color: grey;
+    border: 20px solid white;
+}
+p{
+    font-family: sans-serif;
+}
+.homework p{
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bold;
+}
+.homework{
+    margin-top: 2.5%;
+}
+.other{
+    margin-top: -1%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    width: 60%;
+    height: 90%;
+    background-color: rgb(63, 63, 63);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+.phone{
+    width: 98%;
+    height: 99%;
+    background-color: black;
+    opacity: 1;
+    border-radius: 25px;
+    padding: 0 1%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.5%;
+}
+.top i{
+    color: white;
+    margin-left: 5%;
+}
+.top img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5%;
+}
+.info{
+    margin-top: 10%;
+}
+.info p{
+    margin-left: 3%;
+}
+.hi{
+    color: white;
+    font-weight: bold;
+}
+.tasks{
+    color: gray;
+    font-size: 0.8em;
+}
+.o1{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.new{
+    width: 94%;
+    background: linear-gradient(to right, black, orange);
+    height: 100%;
+    border-radius: 25px;
+}
+#not{
+    margin-left: 3%;
+    margin-top: 2%;
+    font-size: 0.81em;
+}
+#not2{
+    margin-left: 3%;
+    font-size: 0.6em;
+    margin-top: 1%;
+}
+.new img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 1%;
+}
+#i1{
+    margin-left: 3%;
+}
+#i2{
+    margin-left: 2%;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5%;
+    height: 24px;
+    align-items: center;
+}
+.review i{
+    color: white;
+    margin-right: 3%;
+    background-color: orange;
+    padding: 8px;
+    border-radius: 50%;
+}
+#not3{
+    font-size: 0.7em;
+    margin-left: 3%;
+}
+.what{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 12%;
+    margin-top: 4%;
+    row-gap: 10px;
+}
+.what div{
+    width: 100px;
+    height: 70px;
+    background: linear-gradient(to top, rgb(54, 54, 54), orange);
+    border-radius: 25px;
+}
+.what div p{
+    text-align: center;
+}
+.num{
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+}
+.stat{
+    color: rgb(224, 222, 222);
+    font-size: 0.7em;
+}
+.bottom{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom i{
+    color: gray;
+}
+#house{
+    margin-left: 10%;
+}
+#bell{
+    margin-right: 10%;
+}
+#copy{
+    color: orange;
+    font-size: 1.5em;
+}
